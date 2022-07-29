@@ -1,5 +1,6 @@
 # SRY-C
-SRY-C is C language version of SRY.  SRY is my friend wangxiaobo's kmer tool. (https://github.com/caaswxb/SRY)
+SRY-C is C language version of SRY.  
+SRY is my friend wangxiaobo's kmer tool. (https://github.com/caaswxb/SRY)
 
 # Installation
 ```sh
@@ -63,5 +64,5 @@ usage: derrick decode [options] <input file>
 ```
 
 # Contact
-Shigang Wu wushigang@caas.cn
+Shigang Wu wushigang@caas.cn  
 Xiaobo Wang wangxiaobo@caas.cn
