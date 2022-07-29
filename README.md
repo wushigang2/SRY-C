@@ -4,19 +4,19 @@ SRY-C is C language version for SRY.
 
 # Installation
 ```sh
-git clone https://github.com/wushigang2/derrick.git
-cd derrick
+git clone https://github.com/wushigang2/SRY-C.git
+cd SRY-C
 make
 ```
 
-# run derrick
+# run SRY-C
 ```sh
-derrick
+SRY-C
 ```
 ```sh
 commands:
- encode      encode a file.
- decode      decode a file.
+ zhangya         1 <= k <=  32.
+ songyanni      97 <= k <= 128.
 ```
 
 # encode a file
