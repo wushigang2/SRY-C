@@ -64,3 +64,4 @@ usage: derrick decode [options] <input file>
 
 # Contact
 Shigang Wu wushigang@caas.cn
+Xiaobo Wang wangxiaobo@caas.cn
