@@ -1,6 +1,5 @@
 # SRY-C
-SRY is my friend wangxiaobo's kmer tool.
-SRY-C is C language version for SRY.
+SRY-C is C language version for SRY, and SRY is my friend wangxiaobo's kmer tool(https://github.com/caaswxb/SRY).
 
 # Installation
 ```sh
