@@ -16,6 +16,8 @@ SRY-C
 ```sh
 commands:
  zhangya         1 <= k <=  32.
+ zy             33 <= k <=  64.
+ syn            65 <= k <=  96.
  songyanni      97 <= k <= 128.
 ```
 
