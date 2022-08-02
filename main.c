@@ -702,7 +702,7 @@ int usage()
 	"Program: SRY-C\n"
 	"Version: %s\n"
 	"Author : Shigang Wu <wushigang@caas.cn>\n"
-	"Usage  : bsalign <cmd> [options]\n"
+	"Usage  : SRY-C <cmd> [options]\n"
 	"\n"
 	"commands:\n"
         " zhangya       kmer size in  1 to  32\n"
