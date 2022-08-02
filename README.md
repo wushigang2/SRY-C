@@ -40,7 +40,7 @@ SRY-C zy
 ```
 ```sh
 usage: SRY-C zy [options]
- -k <int>    kmer size, 33 <= k <= 64, [53]
+ -k <int>    kmer size, 33 <= k <= 64, [50]
  -r <string> input kmer file, [NULL]
  -i <string> input read file, [NULL]
  -o <string> output file, [NULL]
