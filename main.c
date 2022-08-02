@@ -709,7 +709,7 @@ int usage()
         " zy            kmer size in 33 to  64\n"
         " syn           kmer size in 65 to  96\n"
         " songyanni     kmer size in 97 to 128\n"
-	"example:\n"
+	"Tips:\n"
 	"# To run kmer size in  1 to  32\n"
 	"  SRY-C zhangya\n"
 	"# To run kmer size in 33 to  64\n"
