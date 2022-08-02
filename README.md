@@ -1,6 +1,6 @@
 # SRY-C
 SRY-C is C language version of SRY.  
-SRY is my friend wangxiaobo's kmer tool. (https://github.com/caaswxb/SRY)
+SRY is my friend wangxiaobo's kmer tool. (https://github.com/caaswxb/SRY)  
 bsalign is my teacher ruanjue's alignment tool. (https://github.com/ruanjue/bsalign)
 
 # Installation
@@ -72,7 +72,7 @@ usage: SRY-C songyanni [options]
 
 # Contact
 Shigang Wu wushigang@caas.cn  
-Xiaobo Wang wangxiaobo@caas.cn
-Ya Zhang zhangya@caas.cn
-Yanni Song songyanni@caas.cn
+Xiaobo Wang wangxiaobo@caas.cn  
+Ya Zhang zhangya@caas.cn  
+Yanni Song songyanni@caas.cn  
 Ruan Jue ruanjue@caas.cn
