@@ -699,13 +699,26 @@ int main_songyanni(int argc, char **argv)
 int usage()
 {
         fprintf(stdout,
-	"program: SRY-C\n"
-	"author : Shigang Wu <wushigang@caas.cn>\n"
+	"Program: SRY-C\n"
+	"Version: %s\n"
+	"Author : Shigang Wu <wushigang@caas.cn>\n"
+	"Usage  : bsalign <cmd> [options]\n"
 	"\n"
-        "usage  : SRY-C zhangya\n"
-        "usage  : SRY-C zy\n"
-        "usage  : SRY-C syn\n"
-        "usage  : SRY-C songyanni\n"
+	"commands:\n"
+        " zhangya       kmer size in  1 to  32\n"
+        " zy            kmer size in 33 to  64\n"
+        " syn           kmer size in 65 to  96\n"
+        " songyanni     kmer size in 97 to 128\n"
+	"example:\n"
+	"# To run kmer size in  1 to  32\n"
+	"  SRY-C zhangya\n"
+	"# To run kmer size in 33 to  64\n"
+        "  SRY-C zy\n"
+	"# To run kmer size in 65 to  96\n"
+        "  SRY-C syn\n"
+	"# To run kmer size in 97 to 128\n"
+        "  SRY-C songyanni\n"
+	"\n", TOSTR(VERSION)
         );
         return 1;
 }
