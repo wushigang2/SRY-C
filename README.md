@@ -52,7 +52,7 @@ SRY-C syn
 ```
 ```sh
 usage: SRY-C syn [options]
- -k <int>    kmer size, 65 <= k <= 96, [68]
+ -k <int>    kmer size, 65 <= k <= 96, [88]
  -r <string> input kmer file, [NULL]
  -i <string> input read file, [NULL]
  -o <string> output file, [NULL]
