@@ -4,13 +4,13 @@ int usage_zhangya()
 {
 	fprintf(stdout,
         "usage: SRY-C zhangya [options]\n"
-	" -k <int>    kmer size, 1 <= k <= 32, [21]\n"
+	" -k <int>    kmer size, 1 <= k <= 32, [10]\n"
 	" -r <string> input kmer file, [NULL]\n"
 	" -i <string> input read file, [NULL]\n"
 	" -o <string> output file, [NULL]\n"
         "\n"
         "for example:\n"
-        "SRY-C zhangya -k 21 -r kmer.txt -i read.fa -o output.txt\n"
+        "SRY-C zhangya -k 10 -r kmer.txt -i read.fa -o output.txt\n"
         );
         return 1;
 }
@@ -19,13 +19,13 @@ int usage_zy()
 {
         fprintf(stdout,
         "usage: SRY-C zy [options]\n"
-        " -k <int>    kmer size, 33 <= k <= 64, [53]\n"
+        " -k <int>    kmer size, 33 <= k <= 64, [50]\n"
         " -r <string> input kmer file, [NULL]\n"
         " -i <string> input read file, [NULL]\n"
         " -o <string> output file, [NULL]\n"
         "\n"
         "for example:\n"
-        "SRY-C zy -k 53 -r kmer.txt -i read.fa -o output.txt\n"
+        "SRY-C zy -k 50 -r kmer.txt -i read.fa -o output.txt\n"
         );
         return 1;
 }
@@ -34,13 +34,13 @@ int usage_syn()
 {
         fprintf(stdout,
         "usage: SRY-C syn [options]\n"
-        " -k <int>    kmer size, 65 <= k <= 96, [68]\n"
+        " -k <int>    kmer size, 65 <= k <= 96, [88]\n"
         " -r <string> input kmer file, [NULL]\n"
         " -i <string> input read file, [NULL]\n"
         " -o <string> output file, [NULL]\n"
         "\n"
         "for example:\n"
-        "SRY-C syn -k 68 -r kmer.txt -i read.fa -o output.txt\n"
+        "SRY-C syn -k 88 -r kmer.txt -i read.fa -o output.txt\n"
         );
         return 1;
 }
@@ -77,7 +77,7 @@ int main_zhangya(int argc, char **argv)
         kmerfn = oputfn = NULL;
         readfn = (char **)malloc(sizeof(char *));
         readfn[0] = NULL;
-        ksize = 21;
+        ksize = 10;
         while((c = getopt(argc, argv, "hk:r:i:o:")) != -1)
         {
                 switch(c)
@@ -211,7 +211,7 @@ int main_zy(int argc, char **argv)
         kmerfn = oputfn = NULL;
         readfn = (char **)malloc(sizeof(char *));
         readfn[0] = NULL;
-        ksize = 53;
+        ksize = 50;
         while((c = getopt(argc, argv, "hk:r:i:o:")) != -1)
         {
                 switch(c)
@@ -362,7 +362,7 @@ int main_syn(int argc, char **argv)
         kmerfn = oputfn = NULL;
         readfn = (char **)malloc(sizeof(char *));
         readfn[0] = NULL;
-        ksize = 68;
+        ksize = 88;
         while((c = getopt(argc, argv, "hk:r:i:o:")) != -1)
         {
                 switch(c)
